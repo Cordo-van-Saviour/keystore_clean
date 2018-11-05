@@ -1,0 +1,6 @@
+.idea
+.env
+node_modules/
+ADDRESSES_WITH_TOKENS.json
+FAILED_ACCOUNTS.json
+PAID_ACCOUNTS_*.json
