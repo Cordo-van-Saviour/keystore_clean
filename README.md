@@ -1,4 +1,5 @@
-#Prerequisites
+# Prerequisites
+
 We need one address with small amount of ETH (0.2). We will refer to this address as a “Main Private Key”. We will use this address to send ETH to the addresses that we detect tokens at.
 
 We presume that this private key is in JSON format, and locked with a password. So the script will asks us to provide the password of Main Private Key to it.
