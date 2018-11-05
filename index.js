@@ -15,7 +15,7 @@ const {getInformation} = require('./src/info');
 const ethTx = require('ethereumjs-tx');
 const Web3 = require('web3');
 
-const web3 = new Web3(Web3.givenProvider || 'https://kovan.infura.io/v3/767fe855a77643f39d4db1e343bb769f');
+const web3 = new Web3(Web3.givenProvider || 'https://mainnet.infura.io/v3/767fe855a77643f39d4db1e343bb769f');
 const contractData = require('./contract');
 
 const TokenContract = new web3.eth.Contract(contractData, process.env.CONTRACT_ADDRESS);
