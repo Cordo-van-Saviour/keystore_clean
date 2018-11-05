@@ -9,8 +9,8 @@ function getInformation() {
       name: 'privateKeysPath',
       type: 'input',
       message: 'Enter the path of your private keys folder: ',
-      // default: '/home/ubuntu/.local/share/io.parity.ethereum/keys/ethereum/',
-      default: '/Users/ookie/Library/Application Support/io.parity.ethereum/keys/ethereum/',
+      default: '/home/ubuntu/.local/share/io.parity.ethereum/keys/ethereum/',
+      
       validate: function(value) {
         if (value.length && fs.existsSync(value)) {
           return true;
@@ -23,8 +23,7 @@ function getInformation() {
       name: 'mainPrivateKeyPath',
       type: 'input',
       message: 'Enter the path of your Main Private Key file: ',
-      // default: '/home/ubuntu/MasterKey.json',
-      default: '/Users/ookie/Library/Application Support/io.parity.ethereum/keys/ethereum/MasterKey.json',
+      default: '/home/ubuntu/MasterKey.json',
       validate: function(value) {
         if (value.length) {
           
@@ -44,7 +43,6 @@ function getInformation() {
       name: 'masterPassword',
       type: 'password',
       message: 'Enter your Master Key password:',
-      default: '1234567890',
       validate: function(value) {
         if (value.length) {
           return true;
@@ -57,7 +55,6 @@ function getInformation() {
       name: 'keysPassword',
       type: 'password',
       message: 'Enter your Slave Keys password:',
-      default: '1234567890',
       validate: function(value) {
         if (value.length) {
           return true;

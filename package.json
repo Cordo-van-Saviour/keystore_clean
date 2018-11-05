@@ -1,7 +1,7 @@
 {
-  "name": "redistribute",
+  "name": "clean_vault",
   "version": "1.0.0",
-  "description": "Simple redistribution CLI application",
+  "description": "Simple clean vault CLI application",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
