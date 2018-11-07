@@ -72,3 +72,5 @@ function getInformation() {
 module.exports = {
   getInformation: getInformation
 };
+
+

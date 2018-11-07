@@ -224,7 +224,7 @@ async function recursiveFunction(masterKey, unlockedAccountsList) {
     const nonce = await web3.eth.getTransactionCount(masterKey.address);
     const txParams = {
       nonce: nonce,
-      gasPrice: '0x12a05f200', // 5 GWei
+      gasPrice: '0x1a13b8600', // 5 GWei
       gasLimit: '0x5208', // Maybe we should remove this
       to: unlockedAccountsList[iterator],
       value: '0x11c37937e08000' // 0.005 ETH in Wei
